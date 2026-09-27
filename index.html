@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Future Food Forum 2026 × AI Hackathon</title>
+<meta name="description" content="Future Food Forum 2026 — 29–30 September 2026, Le Méridien Dubai Hotel & Conference Centre. Register for the AI Hackathon, powered by Cloudnate: build AI for a resilient food future.">
+<meta name="theme-color" content="#020716">
+<meta property="og:title" content="AI Hackathon @ Future Food Forum 2026 — powered by Cloudnate">
+<meta property="og:description" content="29–30 September 2026 · Le Méridien Dubai Hotel & Conference Centre. Register now.">
+<meta property="og:image" content="assets/skyline.jpg">
+<link rel="icon" href="assets/cloudnate-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="atmos"></div><div class="gridfloor"></div><div class="scan"></div><div class="cursor-glow" id="glow"></div>
+
+<!-- boot -->
+<div class="boot" id="boot" aria-hidden="true">
+  <div class="boot-inner">
+    <p>&gt; FOOD_OS v2026.09 // handshake…</p>
+    <p>&gt; locating node: DUBAI 25.20°N 55.27°E</p>
+    <p>&gt; loading ecosystem: government · industry · experts · nation</p>
+    <p>&gt; ai_hackathon :: powered by cloudnate :: signal acquired</p>
+    <div class="boot-bar"><i></i></div>
+  </div>
+</div>
+
+<!-- HUD nav -->
+<header class="hud" id="hud">
+  <div class="hud-row">
+    <a class="brand" href="#top" aria-label="Home">
+      <img class="brand-ff" src="assets/logos/future-food-2026.png" alt="Future Food 2026">
+      <span class="brand-x">×</span>
+      <span class="brand-mark"><img src="assets/cloudnate-mark.svg" alt="Cloudnate"></span>
+      <span class="brand-txt">AI HACKATHON<small>POWERED BY CLOUDNATE</small></span>
+    </a>
+    <nav class="navlinks" id="navlinks" aria-label="Primary">
+      <a href="#forum">Forum</a>
+      <a href="#hackathon">Hackathon</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#guide">Guide</a>
+      <a href="#partners">Partners</a>
+      <a href="#register">Register</a>
+    </nav>
+    <a class="btn sm" href="#register">Register <span class="arr">→</span></a>
+    <button class="menu-toggle" id="menuBtn" aria-label="Menu" aria-expanded="false">≡</button>
+  </div>
+</header>
+
+<main id="top">
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <canvas id="neural" aria-hidden="true"></canvas>
+  <div class="hero-img" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="patron"><span class="dot"></span><img src="assets/logos/moet-patronage.png" alt="Under the patronage of the United Arab Emirates Ministry of Economy &amp; Tourism"></div>
+      <div class="lockup">
+        <img class="lk-ff" src="assets/logos/future-food-2026.png" alt="Future Food 2026">
+        <i></i>
+        <img class="lk-cl" src="assets/logos/uae-food-cluster.png" alt="UAE Food Cluster">
+        <img class="lk-fb" src="assets/logos/fb-business-group.png" alt="UAE Food &amp; Beverage Business Group">
+      </div>
+      <div class="eyebrow mono">Eighth Annual · Future Food Forum 2026</div>
+      <h1 class="mega">
+        <span class="line"><span>Shaping</span></span>
+        <span class="line"><span class="outline">a resilient</span></span>
+        <span class="line"><span>food future</span></span>
+        <span class="line"><span class="glow">together.</span></span>
+      </h1>
+      <p class="hero-sub">Two days. One food ecosystem. Government, industry, investors, innovators and food-sector leaders converge in Dubai — and this year, builders join them for the <b class="ember-text">AI Hackathon</b>, powered by Cloudnate.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#register">Register for the hackathon <span class="arr">→</span></a>
+        <a class="btn ghost" href="#agenda">Explore the agenda</a>
+      </div>
+      <div class="stakeholders">
+        <div><b>INDUSTRY</b><span>Business growth</span></div>
+        <div><b>GOVERNMENT</b><span>Policy &amp; enablers</span></div>
+        <div><b>EXPERTS</b><span>Ideas &amp; innovation</span></div>
+        <div><b>NATION</b><span>Food security</span></div>
+      </div>
+    </div>
+
+    <aside class="transmission" aria-label="Hackathon announcement">
+      <div class="tx-head mono"><span><span class="blink">●</span> Incoming transmission</span><span>CH-2026</span></div>
+      <div class="tx-logo">
+        <img src="assets/cloudnate-mark.svg" alt="Cloudnate logo">
+        <h2>AI<br>Hackathon<small>Powered by Cloudnate</small></h2>
+      </div>
+      <p>An AI hackathon running alongside Future Food Forum 2026. Bring your skills — or your business challenge — and build intelligent solutions for a more resilient, sustainable and inclusive food system.</p>
+      <div class="countdown" id="countdown" aria-live="off">
+        <div><b data-u="d">00</b><span>DAYS</span></div>
+        <div><b data-u="h">00</b><span>HRS</span></div>
+        <div><b data-u="m">00</b><span>MIN</span></div>
+        <div><b data-u="s">00</b><span>SEC</span></div>
+      </div>
+      <div class="tx-meta">
+        <div><i>DATES</i>29 – 30 September 2026</div>
+        <div><i>VENUE</i>Le Méridien Dubai Hotel &amp; Conference Centre</div>
+        <div><i>ENTRY</i>Register below · Scan the QR at the venue</div>
+      </div>
+      <a class="btn" href="#register" style="width:100%;justify-content:center">Claim your spot <span class="arr">→</span></a>
+    </aside>
+  </div>
+  <div class="coords mono">25.2048° N · 55.2708° E · DXB</div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+<!-- ============ FORUM ============ -->
+<section class="block" id="forum">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-index">01 / FORUM</span>
+      <h2>The forum <em>at a glance</em></h2>
+      <p>More than a conference. A working ecosystem for two days.</p>
+      <img class="stamp" src="assets/logos/food-resilience-stamp.png" alt="Together towards food resilience">
+    </div>
+
+    <div class="glance">
+      <div class="panel corners glance-copy reveal">
+        <p class="lead">Future Food Forum 2026 brings together government, industry, investors, innovators and food-sector leaders to accelerate a more resilient, sustainable and inclusive food future.</p>
+        <p>Future Food Forum 2026 is the UAE's annual strategic convergence platform, bringing together government, industry, academia, investors, innovators and food-sector leaders to review progress, align priorities and shape a more resilient, sustainable and inclusive food future.</p>
+        <div class="quote">
+          <b>“From Resilience to Recovery”</b>
+          <span style="color:var(--ink-2)">Under this theme, the Forum will convene leaders around the priorities shaping the food ecosystem: food security, trade, innovation, sustainability, technology and investment.</span>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="panel stat reveal"><b data-count="5">0</b><span>Parallel spaces<br>running live</span></div>
+        <div class="panel stat reveal"><b data-count="30" data-suffix="+">0</b><span>Sessions, sideline<br>sessions &amp; meetings</span></div>
+        <div class="panel stat reveal"><b data-count="2">0</b><span>Full days to participate,<br>not just attend</span></div>
+      </div>
+    </div>
+
+    <div class="facts">
+      <div class="panel fact reveal"><span class="mono">Organisers</span><p>Hosted by the <b>UAE Food &amp; Beverage Business Group (FBMG)</b> and the <b>UAE Food Cluster</b>, under the patronage of the <b>UAE Ministry of Economy and Tourism</b>.</p></div>
+      <div class="panel fact reveal"><span class="mono">Main highlight</span><p>The launch of the <b>National Food Catalogue</b> in partnership with <b>GS1</b> to support standardization and traceability across the UAE food ecosystem.</p></div>
+      <div class="panel fact reveal"><span class="mono">Focus</span><p>Strengthening food resilience, supply chain innovations, and advancing the <b>National Food Security Strategy 2051</b>.</p></div>
+    </div>
+
+    <div class="panel sectors reveal" id="sectors"><span class="mono">Unites →</span></div>
+  </div>
+</section>
+
+<!-- pillars -->
+<section class="block" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-index">02 / PILLARS</span>
+      <h2>Our strategic <em>pillars</em></h2>
+      <p>A stronger food ecosystem for a brighter tomorrow.</p>
+    </div>
+    <div class="pillars reveal" id="pillars"></div>
+  </div>
+</section>
+
+<!-- experiences -->
+<section class="block" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-index">03 / EXPERIENCE</span>
+      <h2>Why <em>attend</em></h2>
+      <p>Key experiences across both days.</p>
+    </div>
+    <div class="exp-wrap">
+      <div class="exp-photo reveal" role="img" aria-label="Future Food Forum main stage"></div>
+      <div class="exp-grid" id="experiences"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HACKATHON ============ -->
+<section class="block hack" id="hackathon">
+  <div class="wrap">
+    <div class="hack-hero">
+      <div class="hack-copy reveal">
+        <span class="sec-index" style="display:inline-block">04 / HACKATHON</span>
+        <h2 class="hack-title">AI<span class="ember-text">Hackathon</span></h2>
+        <p class="powered mono"><img src="assets/cloudnate-mark.svg" alt="">Powered by Cloudnate</p>
+        <p>Future Food Forum puts AI firmly on the agenda — from <i>Factory That Thinks</i> to the <i>AI Agentification Roadmap for Food Businesses Success</i>. The AI Hackathon, powered by Cloudnate, turns those conversations into working prototypes, pairing builders with the food businesses who live these challenges every day.</p>
+        <p>Whether you write code, work with data, or run a food business with a problem worth solving — register, and we'll be in touch with the challenge briefs and schedule.</p>
+        <div class="hero-cta" style="margin-top:28px">
+          <a class="btn" href="#register">Register now <span class="arr">→</span></a>
+          <a class="btn ghost" href="qr.html" target="_blank" rel="noopener">Venue QR code</a>
+        </div>
+      </div>
+      <div class="orb-stage reveal" aria-hidden="true">
+        <div class="ring"></div><div class="ring"></div><div class="ring"></div>
+        <div class="orb-core"><img src="assets/cloudnate-mark.svg" alt=""></div>
+        <span class="orb-label a">AGENTS · DATA · CLOUD</span>
+        <span class="orb-label b">FARM → FACTORY → CONSUMER</span>
+        <span class="orb-label c">DXB // 29–30.09.2026</span>
+      </div>
+    </div>
+
+    <div class="sec-head reveal" style="margin-bottom:34px">
+      <span class="sec-index">ARENAS</span>
+      <h2 style="font-size:clamp(28px,3.6vw,48px)">Challenge <em>arenas</em></h2>
+      <p>Drawn straight from the conversations behind the Forum's headlines.</p>
+    </div>
+    <div class="arenas" id="arenas"></div>
+
+    <div class="flow reveal">
+      <div class="step"><h4>Register</h4><p>Sign up on this page or scan the Cloudnate QR code at the venue.</p></div>
+      <div class="step"><h4>Get briefed</h4><p>Registered participants receive challenge briefs and the hackathon schedule.</p></div>
+      <div class="step"><h4>Build</h4><p>Form a team, work with real food-sector problems and ship an AI prototype.</p></div>
+      <div class="step"><h4>Showcase</h4><p>Demo what you built to the leaders, investors and innovators at FF2026.</p></div>
+    </div>
+
+    <div class="who">
+      <div class="panel corners reveal"><h4>Builders</h4><ul>
+        <li>Developers, AI/ML engineers and data scientists</li>
+        <li>Product designers and solution architects</li>
+        <li>Students, graduates and young talent — the talent of 2035</li>
+      </ul></div>
+      <div class="panel corners reveal"><h4>Food businesses &amp; partners</h4><ul>
+        <li>Manufacturers, retailers, producers and SMEs with real challenges</li>
+        <li>Domain experts ready to share real-world data and context</li>
+        <li>Investors and partners looking for what's next</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AGENDA ============ -->
+<section class="block" id="agenda">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-index">05 / AGENDA</span>
+      <h2>The agenda <em>at a glance</em></h2>
+      <p>Two days. One ecosystem. A shared responsibility.</p>
+    </div>
+
+    <div class="hcp reveal">
+      <div class="panel"><b>Hear</b><span>Big ideas on the Main Stage</span></div>
+      <div class="panel"><b>Connect</b><span>Meet buyers, partners and industry leaders</span></div>
+      <div class="panel"><b>Participate</b><span>Join focused workshops and strategy sessions</span></div>
+      <div class="panel"><b>Grow</b><span>Turn ideas into opportunities</span></div>
+    </div>
+
+    <div class="agenda-bar">
+      <div class="tabs" role="tablist" id="dayTabs">
+        <button role="tab" aria-selected="true" data-day="0">Day 01<small>TUE 29 SEP</small></button>
+        <button role="tab" aria-selected="false" data-day="1">Day 02<small>WED 30 SEP</small></button>
+      </div>
+      <div class="tabs view" role="tablist" id="viewTabs">
+        <button role="tab" aria-selected="true" data-view="detail">Full programme<small>EXECUTIVE GUIDE</small></button>
+        <button role="tab" aria-selected="false" data-view="glance">At a glance<small>WITH VENUES</small></button>
+      </div>
+    </div>
+    <div id="agendaOut"></div>
+
+    <div class="highlights reveal" id="highlights" aria-label="Key highlights across both days"></div>
+  </div>
+</section>
+
+<!-- ============ CONVERSATIONS ============ -->
+<section class="block" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-index">06 / TOPICS</span>
+      <h2>The conversations <em>behind the headlines</em></h2>
+    </div>
+    <div class="conv-wrap">
+      <div class="conv-list reveal" id="conversations"></div>
+      <div class="conv-img reveal" role="img" aria-label="Futuristic Dubai"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GUIDE ============ -->
+<section class="block" id="guide" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-index">07 / GUIDE</span>
+      <h2>Your <em>FF2026</em> guide</h2>
+      <p>Find what matters to your business. Pick a priority — we'll tell you what to look for.</p>
+    </div>
+    <div class="guide">
+      <div class="guide-list" id="guideList" role="group" aria-label="If your priority is…"></div>
+      <div class="panel corners guide-out" aria-live="polite">
+        <div><span class="mono">If your priority is…</span><h3 id="guideQ"></h3></div>
+        <div><span class="mono" style="color:var(--ember-a)">Look for…</span><p id="guideA" class="typing" style="margin-top:10px"></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REGISTER ============ -->
+<section class="block" id="register">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-index">08 / REGISTER</span>
+      <h2>Join the <em>hackathon</em></h2>
+      <p>One short form. Tell us who you are and what you'd like to explore — the Cloudnate team will reach out about the hackathon and business opportunities.</p>
+    </div>
+
+    <div class="reg">
+      <div class="panel form-shell reveal">
+        <form id="regForm" novalidate>
+          <input type="text" name="website_hp" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="quick-head"><h3>Register in under a minute</h3><span class="mono">6 quick fields</span></div>
+          <div class="fgrid">
+            <div class="f full" data-group="role">
+              <span class="lbl">I'm joining as <i>*</i></span>
+              <div class="choice-grid" id="roleGrid"></div>
+              <span class="msg"></span>
+            </div>
+            <div class="f"><label for="fullName">Full name <i>*</i></label><input id="fullName" name="fullName" required autocomplete="name"><span class="msg"></span></div>
+            <div class="f"><label for="email">Email <i>*</i></label><input id="email" name="email" type="email" required autocomplete="email" inputmode="email"><span class="msg"></span></div>
+            <div class="f"><label for="phone">Mobile / WhatsApp <i>*</i></label><input id="phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="+971 5X XXX XXXX"><span class="msg"></span></div>
+            <div class="f"><label for="company">Company <i>*</i></label><input id="company" name="company" required autocomplete="organization"><span class="msg"></span></div>
+            <div class="f full"><label for="businessType">Type of business <i>*</i></label>
+              <select id="businessType" name="businessType" required>
+                <option value="">Select…</option>
+                <option>Food &amp; Beverage Manufacturer</option><option>F&amp;B Brand / Retail</option><option>Primary Producer / Farming</option>
+                <option>AgriTech / FoodTech Startup</option><option>Logistics &amp; Supply Chain</option><option>Hospitality &amp; Food Service</option>
+                <option>Franchise</option><option>Government / Regulator</option><option>Investor / Finance / Insurance</option>
+                <option>Technology / IT Services</option><option>Academia / Research</option><option>Consulting / Professional Services</option>
+                <option>Student</option><option>Other</option>
+              </select><span class="msg"></span></div>
+
+            <div class="f full freetext">
+              <label for="details">Tell us about you &amp; what you'd like to explore</label>
+              <span class="hint">Optional, but the more you share, the better we can follow up. Tap a prompt to start.</span>
+              <div class="prompt-chips" id="promptChips"></div>
+              <textarea id="details" name="details" maxlength="5000" rows="5" placeholder="e.g. We're a food manufacturer in Dubai. Our biggest challenge is demand forecasting — we'd love to explore an AI agent that…"></textarea>
+              <div class="counter"><span id="detailsCount">0</span> / 5000</div>
+            </div>
+
+            <details class="more f full">
+              <summary>Add more about you <span class="mono">optional</span></summary>
+              <div class="fgrid more-grid">
+                <div class="f"><label for="jobTitle">Job title</label><input id="jobTitle" name="jobTitle" autocomplete="organization-title"></div>
+                <div class="f"><label for="country">Country</label><input id="country" name="country" list="countries" autocomplete="country-name">
+                  <datalist id="countries"><option>United Arab Emirates</option><option>Saudi Arabia</option><option>Qatar</option><option>Oman</option><option>Kuwait</option><option>Bahrain</option><option>Egypt</option><option>Jordan</option><option>India</option><option>Pakistan</option><option>United Kingdom</option><option>United States</option></datalist></div>
+                <div class="team-only" id="teamFields" hidden>
+                  <div class="f"><label for="teamName">Team name</label><input id="teamName" name="teamName"></div>
+                  <div class="f"><label for="teamSize">Team size</label><select id="teamSize" name="teamSize"><option value="">—</option><option>1 (solo)</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div>
+                </div>
+                <div class="f full"><span class="lbl">Where could AI help your business?</span><div class="choice-grid" id="needChoices"></div></div>
+              </div>
+            </details>
+
+            <div class="f full">
+              <label class="consent"><input type="checkbox" name="consent" id="consent" required value="Yes"><span>I agree to be contacted by Cloudnate about the AI Hackathon and related business opportunities. <i style="color:var(--ember-a);font-style:normal">*</i></span></label>
+              <span class="msg"></span>
+              <label class="consent"><input type="checkbox" name="newsletter" value="Yes"><span>Keep me updated on future Cloudnate events and AI insights.</span></label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn submit-btn" id="submitBtn">Register now <span class="arr">→</span></button>
+          <p class="mono form-status" id="formStatus" aria-live="polite"></p>
+          <p class="demo-note" id="demoNote" hidden>⚠ DEMO MODE — Google Sheet endpoint not configured in config.js. Submissions are not saved.</p>
+        </form>
+
+        <div class="success" id="success" aria-live="polite">
+          <div class="check">✓</div>
+          <h3>You're in the loop</h3>
+          <p>Thanks, <span id="sName"></span>. Your registration for the AI Hackathon has been received.</p>
+          <p>Reference <code id="sRef"></code> — the Cloudnate team will contact you shortly.</p>
+          <div class="hero-cta" style="justify-content:center;margin-top:24px">
+            <a class="btn plasma-btn sm" id="forumLink3" href="#" target="_blank" rel="noopener">Also register for FF2026 <span class="arr">↗</span></a>
+            <button class="btn ghost sm" id="againBtn" type="button">Register someone else</button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="reg-side">
+        <div class="panel corners reveal">
+          <span class="mono">At the venue</span>
+          <h4>Scan to register</h4>
+          <div class="qr-mini">
+            <canvas id="miniQR" width="232" height="232" aria-label="QR code to this registration page"></canvas>
+            <p style="margin:0">Look for the Cloudnate QR code at Le Méridien Dubai — it opens this form on your phone.<br><a class="plasma" href="qr.html" target="_blank" rel="noopener">Open venue display ↗</a></p>
+          </div>
+        </div>
+        <div class="panel reveal">
+          <span class="mono">Forum delegates</span>
+          <h4>Future Food Forum 2026 registration</h4>
+          <p>Attending the Forum's main stage, sideline meetings, AGM or buyers' meetings? Register as a delegate on the official form.</p>
+          <a class="btn plasma-btn sm" id="forumLink1" href="#" target="_blank" rel="noopener">Official FF2026 form <span class="arr">↗</span></a>
+        </div>
+        <div class="panel reveal">
+          <span class="mono">When &amp; where</span>
+          <h4>29 – 30 September 2026</h4>
+          <p style="margin:0">Le Méridien Dubai Hotel &amp; Conference Centre, Dubai, UAE</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARTNERS ============ -->
+<section class="block" id="partners" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-index">09 / PARTNERS</span>
+      <h2>Powered by <em>partnership</em></h2>
+      <p>People. Partnerships. Progress.</p>
+    </div>
+    <div class="partners reveal" id="partnerGrid"></div>
+    <div class="organisers">
+      <div class="panel reveal"><span class="mono">Under the patronage of</span><img class="org-logo" src="assets/logos/uae-emblem.png" alt="UAE emblem"><b>UAE Ministry of Economy &amp; Tourism</b><span>الإمارات العربية المتحدة · وزارة الاقتصاد والسياحة</span></div>
+      <div class="panel reveal"><span class="mono">Organised by</span><span class="org-row"><img class="org-logo" src="assets/logos/uae-food-cluster.png" alt="UAE Food Cluster"><img class="org-logo" src="assets/logos/fb-business-group.png" alt="UAE Food &amp; Beverage Business Group"></span><b>UAE Food Cluster · UAE Food &amp; Beverage Business Group</b><span>تجمع الإمارات للغذاء — Inspiring Sustainable Wellbeing</span></div>
+      <div class="panel reveal"><span class="mono">AI Hackathon by</span><img class="org-logo" src="assets/cloudnate-mark.svg" alt="Cloudnate"><b>Cloudnate</b><span>Hackathon registrations &amp; business follow-up.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VENUE ============ -->
+<section class="venue">
+  <div class="venue-bg" aria-hidden="true"></div>
+  <div class="venue-inner">
+    <div class="venue-logos">
+      <img class="v-ff" src="assets/logos/future-food-2026.png" alt="Future Food 2026">
+      <img src="assets/logos/uae-food-cluster.png" alt="UAE Food Cluster">
+      <img src="assets/logos/fb-business-group.png" alt="UAE Food &amp; Beverage Business Group">
+      <i></i>
+      <img class="v-cn" src="assets/cloudnate-mark.svg" alt="Cloudnate">
+    </div>
+    <div class="tagline">Together towards a more resilient food future.</div>
+    <h2>Connect. Exchange.<br>Collaborate. <em>Grow.</em></h2>
+    <div class="hero-cta">
+      <a class="btn" href="#register">Join the hackathon <span class="arr">→</span></a>
+      <a class="btn ghost" id="forumLink4" href="#" target="_blank" rel="noopener">Join us at FF2026 ↗</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>29 – 30 September 2026 · Le Méridien Dubai Hotel &amp; Conference Centre · <span class="plasma">People · Food · A better tomorrow</span></span>
+    <div class="links">
+      <a href="https://futurefoodseries.ae" target="_blank" rel="noopener">futurefoodseries.ae</a>
+      <a href="https://www.futurefoodforum.ae" target="_blank" rel="noopener">futurefoodforum.ae</a>
+      <a href="qr.html" target="_blank" rel="noopener">Venue QR</a>
+    </div>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="js/data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js" integrity="sha384-lQXOAyZwHXE55JFyrOMB7nY2Wv+m5ZWNtJcHrd1rceRQXAYNLak8ukN5TjBTcIwz" crossorigin="anonymous"></script>
+<script src="js/qr-render.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
